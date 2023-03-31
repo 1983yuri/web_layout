@@ -15,11 +15,16 @@ a:hover {
 
 .product {
   text-align: center;
-  width: 200px;
+  width: 250px;
+  border: 1px solid rgb(190, 25, 25);
+  margin: 30px;
+  padding: 5px;
+  box-shadow: 10px 5px 5px rgb(226, 222, 222);
+  border-radius: 8px;
 }
 
 .product img {
-  width: 200px;
+  width: 250px;
   height: 300px;
 }
 
@@ -27,5 +32,14 @@ a:hover {
   display: flex;
   margin: 10px;
   padding: 10px;
-  justify-content: space-around;
+  justify-content: center;
+}
+.button {
+  background-color: #833e06;
+  border-color: brown;
+  border-radius: 4px;
+  padding: 10px 24px;
+  margin: 2px;
+  font-size: 16px;
+  color: aliceblue;
 }
