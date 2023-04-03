@@ -47,7 +47,7 @@ a:hover {
 }
 
 .product:hover {
-  box-shadow: 10px 5px 5px rgb(226, 222, 222);
+  box-shadow: 0px 5px 20px 1px rgb(192, 188, 188);
 }
 
 .product img {
