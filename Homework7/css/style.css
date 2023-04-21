@@ -6,6 +6,7 @@
 body {
   font-family: "Lato";
 }
+
 img {
   max-width: 100%;
 }
@@ -99,10 +100,12 @@ img {
 .offer_wrapper {
   display: grid;
   grid-template-columns: repeat(3, 360px);
+  grid-template-rows: 260px 180px;
   gap: 30px;
   justify-content: center;
   justify-items: start;
 }
+
 .offer_card_big {
   grid-column: 1 / 4;
   grid-row: 2;

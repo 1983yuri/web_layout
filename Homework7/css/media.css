@@ -9,10 +9,15 @@
     align-content: center;
   }
 
-  .offer_wrapper,
   .products_wrapper {
     grid-template-columns: repeat(3, 300px);
     gap: 22px;
+  }
+
+  .offer_wrapper {
+    grid-template-columns: repeat(3, 300px);
+    gap: 22px;
+    grid-template-rows: 218px 150px;
   }
 
 }
@@ -61,6 +66,7 @@
 
   .offer_wrapper {
     grid-template-columns: repeat(3, 232px);
+    grid-template-rows: 167px 116px;
     gap: 19px;
   }
 
