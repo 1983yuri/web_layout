@@ -6,6 +6,7 @@
 body {
   font-family: "Lato";
 }
+
 img {
   max-width: 100%;
 }
@@ -18,6 +19,12 @@ img {
 
 .header {
   background: #222222;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.header svg:hover {
+  stroke: #f12e48;
 }
 
 .header_wrapper {
@@ -31,8 +38,6 @@ img {
   display: flex;
   align-items: flex-end;
   gap: 41px;
-  padding-top: 18px;
-  padding-bottom: 18px;
   margin-left: 231px;
 }
 
@@ -40,10 +45,9 @@ img {
   display: flex;
   align-items: flex-end;
   gap: 33px;
-  padding-top: 23px;
-  padding-bottom: 23px;
   margin-right: 240px;
 }
+
 
 .main_banner {
   display: flex;
@@ -99,17 +103,20 @@ img {
 .offer_wrapper {
   display: grid;
   grid-template-columns: repeat(3, 360px);
+  grid-template-rows: 260px 180px;
   gap: 30px;
   justify-content: center;
   justify-items: start;
 }
+
 .offer_card_big {
   grid-column: 1 / 4;
   grid-row: 2;
 }
 
 .offer_card,
-.offer_card_big {
+.offer_card_big,
+.big_img_mobile {
   display: flex;
   position: relative;
   justify-content: space-around;
@@ -117,13 +124,18 @@ img {
   background: rgba(33, 22, 22, 0.7);
 }
 
+.big_img_mobile {
+  display: none;
+}
+
 .offer_card img,
-.offer_card_big img {
-  opacity: 0.4;
+.big_img,
+.big_img_mobile {
+  opacity: 0.6;
 }
 
 .offer_card img:hover,
-.offer_card_big img:hover {
+.big_img:hover {
   opacity: 1;
 }
 

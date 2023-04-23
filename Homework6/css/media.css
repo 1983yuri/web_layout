@@ -1,0 +1,48 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .center {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header_left,
+  .header_right {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .main_banner {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .banner_img {
+    align-content: flex-start;
+  }
+
+  .banner_content {
+    padding-left: 39px;
+  }
+
+  .banner_info {
+    margin-top: 40%;
+  }
+
+  .banner_title {
+    font-size: 44px;
+    line-height: 53px;
+  }
+
+  .banner_heading {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .offer_wrapper {
+    grid-template-columns: repeat(3, 232px);
+    gap: 19px;
+  }
+  .products_wrapper {
+    grid-template-columns: repeat(2, 360px);
+    gap: 16px;
+  }
+}

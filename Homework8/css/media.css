@@ -1,0 +1,164 @@
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .banner_content {
+    padding-left: 39px;
+
+  }
+
+  .banner_info {
+    margin-top: 55%;
+    align-content: center;
+  }
+
+  .products_wrapper {
+    grid-template-columns: repeat(3, 300px);
+    gap: 22px;
+  }
+
+  .offer_wrapper {
+    grid-template-columns: repeat(3, 300px);
+    gap: 22px;
+    grid-template-rows: 218px 150px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .center {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header_left,
+  .header_right {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .main_banner {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .banner_img {
+    align-content: flex-start;
+  }
+
+  .banner_content {
+    padding-left: 39px;
+    align-items: center;
+  }
+
+  .banner_info {
+    margin-top: 50%;
+  }
+
+  .banner_title {
+    font-size: 44px;
+    line-height: 53px;
+  }
+
+  .banner_heading {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .offer_wrapper {
+    grid-template-columns: repeat(3, 232px);
+    grid-template-rows: 167px 116px;
+    gap: 19px;
+  }
+
+  .products_wrapper {
+    grid-template-columns: repeat(2, 360px);
+    gap: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .center {
+    max-width: 767;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header_left,
+  .header_right {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .user {
+    display: none;
+  }
+
+  .bascket {
+    display: none;
+  }
+
+  .main_banner {
+    max-width: 767px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .banner_img {
+    display: none;
+  }
+
+  .banner_content {
+    padding-left: 0;
+  }
+
+  .banner_info {
+    margin-top: 50%;
+    margin-bottom: 50%;
+  }
+
+  .banner_title {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .banner_heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .offer_wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .offer_card {
+    max-width: 343px;
+  }
+
+  .offer_card img {
+    pointer-events: none;
+  }
+
+  .big_img {
+    display: none;
+  }
+
+  .big_img_mobile {
+    display: block;
+  }
+
+  .products_wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .products_card {
+    max-width: 360px;
+  }
+}
